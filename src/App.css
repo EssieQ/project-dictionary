@@ -4,7 +4,10 @@ body {
 
 .App-header {
   text-align: center;
-  padding: 30px 0;
+}
+
+.App-logo {
+  max-width: 150px;
 }
 
 .App-footer {
@@ -12,9 +15,19 @@ body {
   font-size: smaller;
   margin-top: 20px;
   padding-bottom: 30px;
+  color: #93b5c6;
 }
 
 .App {
   max-width: 960px;
   margin: 0 auto;
+}
+
+a {
+  color: #ff577f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #93b5c6;
 }
